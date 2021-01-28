@@ -9,18 +9,44 @@ function displayWordSoFar(word, guesses) {
   // - [ ] zo nee: "_ "
   // - [ ] zo ja: "j " (niet j, maar de letter die we dan checken)
   // - [ ] klaar? -> onze string die we hebben gemaakt returnen
+
+   const word= 'javascript'
+   const guesses = ["_ _ _ _ _ _ _ _ _ _"]
+  console.log(guesses)
+  for (let i = 0; i < guesses.length ; i++) {
+
+
 }
+
+  if({
+    const word === guesses.length
+
+
+
+  })
+
+
+
+
+
 
 function isGameWon(word, guesses) {
   // WRITE ME
+
+    
+  }
 }
 
-function isGameLost(word, guesses) {
-  // WRITE ME
-}
+ function isGameLost(word, guesses) {
+//  WRITE ME
+
+
+// }
 
 module.exports = {
   displayWordSoFar: displayWordSoFar,
   isGameWon: isGameWon,
   isGameLost: isGameLost,
-};
+}
+
+}
